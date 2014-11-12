@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Environment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kpX-cs-gNa">
+                                <rect key="frame" x="16" y="118" width="81" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8P-hN-Nzp">
+                                <rect key="frame" x="16" y="137" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report Crashes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsa-yy-xrc">
+                                <rect key="frame" x="16" y="166" width="101" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9q-3O-C9i">
+                                <rect key="frame" x="16" y="185" width="23" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qh-x4-1a6">
+                                <rect key="frame" x="16" y="28" width="568" height="82"/>
+                                <string key="text">This is an example application that shows how a project can be configured to load different settings for different environments. To see changes change the Scheme and run the application again.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Configuration values can be added by editing the [Environment]-Config.plist files." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRO-zO-5O7">
+                                <rect key="frame" x="16" y="539" width="568" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kpX-cs-gNa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1jM-3W-ELx"/>
+                            <constraint firstItem="nsa-yy-xrc" firstAttribute="top" secondItem="j8P-hN-Nzp" secondAttribute="bottom" constant="8" id="1nT-HC-Zyv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iRO-zO-5O7" secondAttribute="bottom" constant="20" id="A5o-dG-FFH"/>
+                            <constraint firstItem="kpX-cs-gNa" firstAttribute="leading" secondItem="j8P-hN-Nzp" secondAttribute="leading" id="BsQ-jc-gVc"/>
+                            <constraint firstItem="kpX-cs-gNa" firstAttribute="top" secondItem="5Qh-x4-1a6" secondAttribute="bottom" constant="8" id="DmB-gS-v4Q"/>
+                            <constraint firstItem="iRO-zO-5O7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="MVE-g2-3Rl"/>
+                            <constraint firstItem="5Qh-x4-1a6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Ooi-ZS-fzk"/>
+                            <constraint firstItem="5Qh-x4-1a6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ShW-4m-0xU"/>
+                            <constraint firstItem="j8P-hN-Nzp" firstAttribute="top" secondItem="kpX-cs-gNa" secondAttribute="bottom" constant="2" id="Shs-i1-glw"/>
+                            <constraint firstItem="nsa-yy-xrc" firstAttribute="leading" secondItem="j8P-hN-Nzp" secondAttribute="leading" id="gIg-Ye-G8O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Qh-x4-1a6" secondAttribute="trailing" id="gVm-0k-AUY"/>
+                            <constraint firstItem="V9q-3O-C9i" firstAttribute="leading" secondItem="nsa-yy-xrc" secondAttribute="leading" id="hxm-4s-3Ds"/>
+                            <constraint firstItem="V9q-3O-C9i" firstAttribute="top" secondItem="nsa-yy-xrc" secondAttribute="bottom" constant="2" id="jxb-2p-bsI"/>
+                            <constraint firstAttribute="centerX" secondItem="5Qh-x4-1a6" secondAttribute="centerX" id="oRm-RY-JkV"/>
+                            <constraint firstItem="iRO-zO-5O7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pcD-Be-0ms"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="environmentLabel" destination="j8P-hN-Nzp" id="WJg-Tc-xqw"/>
+                        <outlet property="reportCrashesLabel" destination="V9q-3O-C9i" id="xfy-8n-3Id"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
